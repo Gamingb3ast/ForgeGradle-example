@@ -34,4 +34,10 @@ Also in the dependencies block of the buildscript section, change the dependency
      }
 ```
 
+Lastly in the wrapper properties update gradle with this line:
+```
+-          distributionUrl=https\://services.gradle.org/distributions/gradle-2.0-bin.zip
++          distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.3-bin.zip
+```
+
 The Gradle wrapper should also be changed to use Gradle 4.4.1 or higher. <!--Currently, the plugin [does not support Gradle 6.x](https://github.com/anatawa12/ForgeGradle-1.2/issues/9), although this may change in the future. As such, the latest version of Gradle this plugin supports is Gradle 5.6.4.-->
