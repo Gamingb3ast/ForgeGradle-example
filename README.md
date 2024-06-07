@@ -35,7 +35,7 @@ Also in the dependencies block of the buildscript section, change the dependency
 ```
 
 Lastly in the wrapper properties update gradle with this line:
-```
+```diff
 -          distributionUrl=https\://services.gradle.org/distributions/gradle-2.0-bin.zip
 +          distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.3-bin.zip
 ```
